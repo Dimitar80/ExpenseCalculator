@@ -4,7 +4,7 @@ html,body {
     height: 100%;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
-    /* background-color: #E5EDF5; */
+    background-color: #E5EDF5;
     /* overflow: hidden; */
 }
 
@@ -20,25 +20,23 @@ html,body {
 }
 
 .main-container {
-    /* background-color: 
-    rgba(83, 83, 83, 0.5); */
-    background-color: red;
-    padding: 0px 0px 0px 0px;
-    margin-bottom: 50px;
+    width: 100%;
+    height: calc(100% - 71px);
 }
 
 #general-screen {
     background-color: 
     rgba(66, 66, 66, 0.5);
-    width: 90%;
+    width: 100%;
     height: 100%;
     position: fixed;
 }
 
 /*DELETE BOX - start*/
 #delbox {
-    width: 380px;
+    width: 400px;
     height: 200px;;
+    box-sizing: border-box;
     background-color: #fff;
     position: fixed;
     display: flex;
@@ -46,52 +44,51 @@ html,body {
     flex-direction: column;
     justify-content: center;
     border-radius: 10px;
+    padding: 20px;
 }
 
 #boxtext {
     display: flex;
     flex-direction: column;
-    margin-right: auto;
-    margin-left: 35px;
+    padding-bottom: 20px;
 }
 
 #delbox h2 {
-    font-size: 16px;
-    color: #404040;
+    font-size: 18px;
+    color: #576574;
     font-weight: bold;
     /* margin-right: auto; */
-    /* background-color: red; */
 }
 #delbox p {
     font-size: 16px;
-    color: #575757;
-    /* margin-right: auto; */
-    /* background-color: red; */
+    color: #576574;
 }
 
 #buttons {
     display: flex;
     align-items: center;
     margin-left: auto;
-    margin-right: 35px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
 }
 
 #delbox #cancel, #delete {
     font-size: 15px;
+    color: #576574;
     background-color: #fff;
-    box-shadow: 
-    rgba(0, 0, 0, 0.17);
     border: none;
     outline: none;
-    padding: 5px 15px 5px 15px;
+    padding: 8px 15px 8px 15px;
     border-radius: 3px;
     Box-shadow: 
     0px 0px 16px  rgba(0, 0, 0, 0.17);
 }
 #delbox #delete {
     background-color: #576574;
+    color: #fff;
+    /* font-weight: 500; */
 }
-box-sizing
 
 /*DELETE BOX - start*/
 
@@ -99,14 +96,7 @@ box-sizing
 
 #mainnav  {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin: 200px auto 0px;
-    padding: 10px 0 10px 0;
-    width: 90%;
-    height: 50px;
-    background-color: greenyellow;
-    /* position: fixed; */
 }
 
 #mainnav #btproducts {
@@ -115,9 +105,8 @@ box-sizing
     border: 2px solid #1DD1A1;
     color: #1DD1A1;
     border-radius: 5px;
-    background-color: transparent ;
-    margin-left: 30px;
-    margin-right: 10px;
+    background-color: transparent;
+    margin-right: 5px;
     height: 40px;
     width: 110px;
     outline: none;
@@ -135,13 +124,6 @@ box-sizing
     outline: none;
 }
 
-#mainnav img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    margin-left: auto;
-}
-
 #mainnav h2 {
     font-size: 18px;
     color: #4D4D4D;
@@ -151,26 +133,25 @@ box-sizing
 
 #mainonebtn {
     display: flex;
-    flex-direction: row;
-    /* align-items: center; */
+    align-items: center;
 }
-
-#alltable {
-    width: 90%; 
-    background-color: #E5EDF5;
-    margin: auto;
-}
-
 
 #maintitle  {
-    width: 85%;
+    width: 90%;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 25px;
-    margin: auto;
-    /* border-bottom: 1px solid black; */
-    
+    margin: 20px auto -10px auto;
+}
+
+.tit {
+    display: flex;
+    align-items: center;
+}
+
+#filter {
+    display: flex;
+    align-items: center; 
 }
 
 #maintitle h1 {
@@ -182,7 +163,6 @@ box-sizing
 #maintitle h2 {
     font-size: 16px; 
     color: #575757;
-    margin-left: auto;
 }
 
 #maintitle select {
@@ -198,10 +178,10 @@ box-sizing
 }
 
 #maintable {
-    width: 85%;
+    width: 90%;
     border: 0px;
     border-spacing: 0px 10px;
-    margin: auto;
+    margin: 0 auto 0 auto;
 }
 
 #maintable thead th {
@@ -212,7 +192,6 @@ box-sizing
     width: 180px;
     height: 50px;
     text-align: left;
-
 }
 
 #maintable tbody tr {
@@ -244,8 +223,8 @@ box-sizing
     border: none;
     outline: none;
     position: fixed;
-    right: 180px;
-    bottom: 70px;
+    right: 50px;
+    bottom: 50px;
 }
 
 
