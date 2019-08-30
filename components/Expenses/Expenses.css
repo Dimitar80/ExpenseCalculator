@@ -20,7 +20,7 @@ html,body {
 }
 
 .main-container {
-    width: 100%;
+    width: 97%;
     height: calc(100% - 71px);
 }
 
@@ -46,6 +46,7 @@ html,body {
     color: #8D8D8D;
     background-color: #fff;
     border: 2px solid #C6C6C6;
+    outline: none;
     border-radius: 5px;
     margin-left: 20px;
 }
