@@ -1,4 +1,4 @@
-/*DP26-08-2019*/
+/*DP30-08-2019*/
 html,body {
     width: 100%;
     height: 100%;
@@ -17,19 +17,16 @@ html,body {
     align-items: center;     /*vertical*/
     flex-wrap: wrap;
     align-content: center;
+    box-sizing: border-box;
+    /* padding: 280px 0 60px 0; */
 }
 
-.box-container {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-bottom: 25px;
-}
 
 /* input[type=number]::-webkit-outer-spin-button { 
     -webkit-appearance: none; 
     margin: 0; 
   } */
 
-  .additional-info  {
-    margin-bottom: 12px;
-}
+  /* .additional-info  {
+    padding-bottom: 20px;
+} */

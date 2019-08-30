@@ -1,4 +1,4 @@
-/*DP21*/
+/*DP30-08-2019*/
 
 #header {
     width: 100%;
@@ -9,6 +9,37 @@
     position: sticky;
     top: 0;
     background: #fff;
+}
+
+#mainnav  {
+    display: flex;
+    align-items: center;
+}
+
+#mainnav #btproducts {
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #1DD1A1;
+    color: #1DD1A1;
+    border-radius: 5px;
+    background-color: transparent ;
+    /* margin-left: 30px; */
+    margin-right: 10px;
+    height: 40px;
+    width: 110px;
+    outline: none;
+}
+
+#mainnav #btexpenses {
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #576574;
+    color: #576574;
+    border-radius: 5px;
+    background-color: transparent ;
+    height: 40px;
+    width: 110px;
+    outline: none;
 }
 
 .user {
@@ -38,13 +69,14 @@
     flex-wrap: wrap;
     background-color: #fff;
     border-radius: 10px;
-    /* width: 350px; */
-    padding: 40px;
+    box-sizing: border-box;
+    width: 450px;
+    padding: 50px 40px 60px 40px;
 }
 
 /* label */
 .text-field-input {
-    /* width: 100%; */
+    width: 100%;
     font-size: 18px;
     color: #8d8d8d;
     margin-top: 2px;
@@ -59,7 +91,7 @@
     font-size: 15px;
     border: 2px solid #C6C6C6;
     background-color: #fff;
-    /* outline: none; */
+    outline: none;
     border-radius: 5px;
     display: inline-block;
     flex-wrap: wrap;
@@ -68,7 +100,7 @@
 
 /* button */
 .primary-button {
-    width: 100%;
+    width: 340px;
     height: 50px;
     font-size: 15px;
     color: #fff;
@@ -79,7 +111,7 @@
     margin-top: 30px;
     display: inline-block;
     border: none;
-    /* outline: none; */
+    outline: none;
 }
 
 .additional-info {
@@ -87,7 +119,7 @@
     width: 100%;
     color: #8d8d8d;
     font-size:18px;
-    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
 }
 .additional-info a {
     color: #8d8d8d;
