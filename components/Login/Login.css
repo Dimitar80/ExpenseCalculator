@@ -15,9 +15,9 @@ html,body {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
+    align-content: center;   
     /* flex-direction: column;   */
     flex-wrap: wrap;
     align-content: center;
-    /* align-self: center; */
 }

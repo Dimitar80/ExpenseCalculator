@@ -71,8 +71,8 @@
     background-color: #fff;
     border-radius: 10px;
     box-sizing: border-box;
-    width: 440px;
-    padding: 40px 0px 40px 0px;
+    /* width: 420px; */
+    padding: 40px 40px 50px 40px;
 }
 
 /* label */
