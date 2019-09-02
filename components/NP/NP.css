@@ -46,7 +46,7 @@ html,body {
     align-items: center; /* check*/
     justify-content: center; /*check*/
     flex-wrap: wrap;
-    width: 73%;
+    width: 75%;
     height: 650px;
     margin: 0 auto 20px 5%;
     box-sizing: border-box;
