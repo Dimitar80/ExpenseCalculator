@@ -22,7 +22,8 @@ html,body {
 .main-container {
     width: 97%;
     height: calc(100% - 141px);
-    padding-right: 120px;
+    /* padding-right: 120px; */
+    /* padding-left: 120px; */
 }
 
 #maintitle  {
@@ -42,10 +43,10 @@ html,body {
 
 .form-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* check*/
+    justify-content: center; /*check*/
     flex-wrap: wrap;
-    width: 80%;
+    width: 75%;
     height: 650px;
     margin: 0 auto 20px 5%;
     box-sizing: border-box;
@@ -59,12 +60,12 @@ html,body {
 #fpage {
     display: flex; 
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; /*flex-start*/
     width: 55%;
     height: 100%;
     background-color: #fff;
     box-sizing: border-box;
-    padding: 0px 120px 0px 0;
+    padding: 0px 0px 0px 50px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     overflow-x: hidden;
