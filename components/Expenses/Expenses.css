@@ -21,7 +21,7 @@ html,body {
 
 .main-container {
     width: 97%;
-    height: calc(100% - 71px);
+    height: calc(100% - 141px);
 }
 
 #period {
@@ -54,6 +54,8 @@ html,body {
 #btnmonth, #btnyear  {
     height: 45px;
     width: 150px;
+    text-align: center;
+    display: inline-block;
     /* margin: 0px 0 0 95px; */
     border-radius: 5px;
     background-color: #1DD1A1;
@@ -64,6 +66,7 @@ html,body {
     color: #fff;
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #btnyear {
@@ -71,9 +74,9 @@ html,body {
     background-color: #C9E5DD;
 }
 
-#btnmonth, #btnyear:inactive {
+/* #btnmonth, #btnyear:inactive {
     background-color: #C9E5DD; 
-}
+} */
 
 #maintitle  {
     width: 90%;
@@ -103,7 +106,7 @@ html,body {
     width: 90%;
     border: 0px;
     border-spacing: 0px 10px;
-    margin: auto;
+    margin: 0 auto 70px;
 }
 
 #maintable thead th {

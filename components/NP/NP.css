@@ -21,7 +21,7 @@ html,body {
 
 .main-container {
     width: 97%;
-    height: calc(100% - 71px);
+    height: calc(100% - 141px);
     padding-right: 120px;
 }
 
@@ -49,6 +49,7 @@ html,body {
     height: 650px;
     margin: 0 auto 20px 5%;
     box-sizing: border-box;
+    overflow-x: hidden;
     /* height: 450px; */
     /* padding: 40px 120px 40px 40px; */
     
@@ -66,6 +67,7 @@ html,body {
     padding: 0px 120px 0px 0;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    overflow-x: hidden;
 }
 
 /* .input-container {
@@ -111,6 +113,7 @@ html,body {
     display: inline-block;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 #right-page {
@@ -126,6 +129,7 @@ html,body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     /* box-sizing: border-box; */
+    overflow-x: hidden;
 }
 
 

@@ -21,7 +21,7 @@ html,body {
 
 .main-container {
     width: 97%;
-    height: calc(100% - 71px);
+    height: calc(100% - 141px);
 }
 
 /*Vidi kaj marginot*/
@@ -107,6 +107,9 @@ html,body {
 
 #mainonebtn #btnnewproduct {
     font-size: 14px;
+    text-align: center;
+    display:inline-block;
+    /* font-weight: 600; */
     width: 180px;
     height: 45px;
     background-color: #575757;
@@ -117,6 +120,7 @@ html,body {
     position: fixed;
     right: 50px;
     bottom: 50px;
+    cursor: pointer;
 }
 
 

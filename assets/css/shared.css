@@ -6,9 +6,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 40px 10px 40px;
-    position: sticky;
+    position: fixed; /*sticky*/
     top: 0;
     background: #fff;
+    box-sizing: border-box;
 }
 
 #mainnav  {
@@ -28,6 +29,7 @@
     height: 40px;
     width: 110px;
     outline: none;
+    cursor: pointer;
 }
 
 #mainnav #btexpenses {
@@ -40,6 +42,7 @@
     height: 40px;
     width: 110px;
     outline: none;
+    cursor: pointer;
 }
 
 .user {
@@ -71,6 +74,7 @@
     background-color: #fff;
     border-radius: 10px;
     box-sizing: border-box;
+    overflow-x: hidden;
     /* width: 420px; */
     padding: 40px 40px 50px 40px;
 }
@@ -114,6 +118,7 @@
     display: inline-block;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .additional-info {
@@ -126,3 +131,4 @@
 .additional-info a {
     color: #8d8d8d;
 }
+
